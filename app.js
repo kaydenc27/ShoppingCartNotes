@@ -1,3 +1,26 @@
+const animalListings = [
+    { name: "Labrador", cost: 2800, size: "Medium"},
+    { name: "Husky", cost: 3000, size: "Medium"},
+    { name: "Rotweiler", cost: 2500, size: "Medium"},
+    { name: "Golden Retriever", cost: 2750, size: "Medium"},
+    { name: "Chihuahua", cost: 3100, size: "Small"},
+    { name: "Pomeranian", cost: 1000, size: "Small"},
+    { name: "Pug", cost: 850, size: "Small"},
+    { name: "German Shepherd", cost: 2600, size: "Large"},
+    { name: "Shih Tzu", cost: 5000, size: "Small"},
+    { name: "French Bulldog", cost: 4000, size: "Small"},
+    { name: "Dachshund", cost: 1000, size: "Small"},
+    { name: "Akita", cost: 5000, size: "Medium"},
+    { name: "Beagle", cost: 1800, size: "Medium"},
+    { name: "Belgian Malinois", cost: 3000, size: "Large"},
+    { name: "Boston Terrier", cost: 2700, size: "Small"},
+    { name: "Cane Corso", cost: 3000, size: "Large"},
+    { name: "Bulldog", cost: 1400, size: "Small"},
+    { name: "Dalmation", cost: 1600, size: "Medium"},
+    { name: "Greyhound", cost: 2500, size: "Large"},
+    { name: "Mastiff", cost: 6000, size: "Large"}
+]
+
 function inject(item) {
   const container = document.querySelector(".container");
   container.insertAdjacentHTML(
