@@ -1,5 +1,5 @@
 const animalListings = [
-    { name: "Labrador", cost: 2800, size: "Medium"},
+    { name: "Labrador", cost: 2800, size: "Medium", img: "image.png"},
     { name: "Husky", cost: 3000, size: "Medium"},
     { name: "Rotweiler", cost: 2500, size: "Medium"},
     { name: "Golden Retriever", cost: 2750, size: "Medium"},
@@ -28,12 +28,13 @@ function inject(item) {
     `<div class="card">
         <h2 class="card-header">${item.name}</h2>
         <img src="${item.img}" alt="" />
-        <p>filler filler filler</p>
+        <p>${item.size}</p>
+        <p>${item.cost}</p>
       </div> `,
   );
 }
 
-
+animalListings.forEach(inject);
 
 //make 1 html card, comment it out
 //select the container

@@ -1,8 +1,9 @@
 .card {
-  background-color: rgb(3, 82, 36);
+  background-color: rgb(255, 255, 0);
   width: 350px;
   height: 450px;
   text-align: center;
+  margin: 1.5rem
 }
 .container {
   display: flex;
