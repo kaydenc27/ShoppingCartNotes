@@ -1,11 +1,11 @@
 const animalListings = [
     { name: "Labrador", cost: 2800, size: "Medium", img: "Labrador.png"},
-    { name: "Husky", cost: 3000, size: "Medium", img: "image.png"},
+    { name: "Husky", cost: 3000, size: "Medium", img: "husky.webp"},
     { name: "Rotweiler", cost: 2500, size: "Medium", img: "Rottweiler.webp"},
     { name: "Golden Retriever", cost: 2750, size: "Medium", img: "Golden Retriever.jpeg"},
     { name: "Chihuahua", cost: 3100, size: "Small", img: "Chihuahua.jpg"},
-    { name: "Pomeranian", cost: 2100, size: "Small", img: ""},
-    { name: "Pug", cost: 850, size: "Small", img: ""},
+    { name: "Pomeranian", cost: 2100, size: "Small", img: "Pomeranian.avif"},
+    { name: "Pug", cost: 850, size: "Small", img: "Pug.jpg"},
     { name: "German Shepherd", cost: 2600, size: "Large", img: ""},
     { name: "Shih Tzu", cost: 5000, size: "Small", img: ""},
     { name: "French Bulldog", cost: 4000, size: "Small", img: ""},
@@ -30,6 +30,7 @@ function inject(item) {
         <img class ="img"src="${item.img}" alt="" />
         <p>${item.size}</p>
         <p>${item.cost}</p>
+        <button class="btn">Add to Cart</button>
       </div> `,
   );
 }
